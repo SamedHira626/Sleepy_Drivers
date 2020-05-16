@@ -34,8 +34,11 @@ while 1:
                 url = "https://www.youtube.com/watch?v=4rsXvmv7ty0&list=PLDIoUOhQQPlVr3qepMVRsDe4T8vNQsvno"
                 driver.get(url) #that opens pop music to wake you up
                 print(driver.title)
-         
+# the following line needs your Twilio Account SID and Auth Token         
                 client = Client("AC2d1e4d3012ba8e4cb4f21356772e971d", "3fb906f382a85ef77f0ee1ce88d24f92")
+# change the "from_" number to your Twilio number and the "to" number
+# to the phone number you signed up for Twilio with, or upgrade your
+# account to send SMS to any phone number    
                 client.messages.create(to="+905313200699", 
                        from_="+12058436069", 
                        body="Wake Uppp")
