@@ -27,7 +27,7 @@ while 1:
     if sum_eyes==0: #if it doesn't detect
           count=count+1
           print("Not found")
-          if count==100:  #if it doesn't detect 100 times which takes a few seconds, if you want increment it
+          if count==100:  #if it doesn't detect 100 times which takes 4-5 seconds,you can increment it if you want
                 
                 print("Wake UP!!!!!!!!!")
                 driver = webdriver.Chrome()  
