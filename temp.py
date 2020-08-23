@@ -27,11 +27,11 @@ while 1:
     if sum_eyes==0: #if it doesn't detect
           count=count+1
           print("Not found")
-          if count==100:  #if it doesn't detect 100 times which takes 4-5 seconds,you can increment it if you want
+          if count==100:  #if it doesn't detect 100 times which takes 4-5 seconds(depends on your PC)
                 
                 print("Wake UP!!!!!!!!!")
                 driver = webdriver.Chrome()  
-                url = "https://www.youtube.com/watch?v=4rsXvmv7ty0&list=PLDIoUOhQQPlVr3qepMVRsDe4T8vNQsvno"
+                url = "https://www.youtube.com/watch?v=6MrNSqE9j6M"
                 driver.get(url) #that opens pop music to wake you up
                 print(driver.title)
 # the following line needs your Twilio Account SID and Auth Token         
@@ -44,7 +44,7 @@ while 1:
                        body="Wake Uppp")
     else:
           print("Found")
-        
+############  AS A RESULT, WHEN IT DOESN'T SEE YUR EYES IT PLAYED LIVE MUSICS AND SENT YOU AN SMS IN ORDER TO WAKE YOU UP   ############    
 
     cv2.imshow('img',img)
     k = cv2.waitKey(30) & 0xff
