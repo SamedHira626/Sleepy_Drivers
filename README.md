@@ -1,5 +1,5 @@
 # Dont-sleep-while-driving
-Firstly, check my video whose name is "How it works.mp4" in repository
+Firstly, check my video whose name is "How it works.mp4" in repository or CLICK HERE https://www.linkedin.com/feed/update/urn:li:activity:6666391234493452288/
 
 The main idea of this project give a few attentions when drivers sleep or looking at somewhere instead of road.
 
