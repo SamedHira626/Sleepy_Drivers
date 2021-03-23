@@ -1,4 +1,4 @@
-# Dont-sleep-while-driving
+# Do not sleep while driving
 
 
 The main idea of this project is that if the drivers sleep or look somewhere else instead of the road, the program sends messages and plays music to wake them up.
