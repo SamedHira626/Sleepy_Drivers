@@ -3,6 +3,8 @@
 
 The main idea of this project is that if the drivers sleep or look somewhere else instead of the road, the program sends messages and plays music to wake them up.
 
+Check my Medium post to understand clearly (https://samedhira.medium.com/sleeping-detection-7faef5fa3238)
+
 **1.Requirements:**
  - OpenCV:	 
  > ```
